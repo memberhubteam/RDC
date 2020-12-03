@@ -1,6 +1,10 @@
 require "RDC/version"
+require "RDC/restaurant_info"
 
 module RDC
   class Error < StandardError; end
-  # Your code goes here...
+
+  class << self
+    attr_accessor :api_key, :environment
+  end
 end
