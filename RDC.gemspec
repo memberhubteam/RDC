@@ -3,8 +3,8 @@ require_relative 'lib/RDC/version'
 Gem::Specification.new do |spec|
   spec.name          = "RDC"
   spec.version       = RDC::VERSION
-  spec.authors       = ["davidrichey"]
-  spec.email         = ["daveyrichey@gmail.com"]
+  spec.authors       = ["davidrichey", "aditya-kapoor"]
+  spec.email         = ["daveyrichey@gmail.com", "adityakapoor.mait@gmail.com"]
 
   spec.summary       = 'Ruby gem that wraps restaurants.com API'
   spec.description   = 'Ruby gem that wraps restaurants.com API'
@@ -25,4 +25,8 @@ Gem::Specification.new do |spec|
   spec.bindir        = "exe"
   spec.executables   = spec.files.grep(%r{^exe/}) { |f| File.basename(f) }
   spec.require_paths = ["lib"]
+
+  spec.add_dependency 'net-sftp',       '3.0.0'
+  spec.add_dependency 'rubyzip'
+  spec.add_dependency 'activesupport',  '5.2.3'
 end
