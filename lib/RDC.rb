@@ -1,6 +1,8 @@
+# frozen_string_literal: true
+
 require "RDC/version"
 require "RDC/catalog"
-require "RDC/restaurant_info"
+require "RDC/order"
 
 module RDC
   class Error < StandardError; end

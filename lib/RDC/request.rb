@@ -12,15 +12,22 @@ module RDC
 
     def base_url
       if RDC.environment == 'production'
-        'http://connect.restaurant.com/api'
+        'http://connect.restaurant.com/api'.freeze
       else
-        'https://dev-connect.restaurant.com/api'
+        'https://dev-connect.restaurant.com/api'.freeze
       end
     end
 
     def get(params = {})
       self.response = HTTP.headers(headers)
                           .get(url, { params: params })
+      self.json = JSON.parse(response.body.to_s, symbolize_names: true)
+      self
+    end
+
+    def post(params = {})
+      self.response = HTTP.headers(headers)
+                          .post(url, { json: params })
       self.json = JSON.parse(response.body.to_s, symbolize_names: true)
       self
     end
