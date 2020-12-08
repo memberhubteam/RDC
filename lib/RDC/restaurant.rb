@@ -5,10 +5,10 @@ require_relative 'item'
 module RDC
   class Restaurant
     attr_accessor :name, :items, :short_description, :long_description,
-                  :online, :address, :image
+                  :online, :address, :image, :id
 
     def initialize(hash_values)
-      puts "Initializing Restaurant #{hash_values['RestaurantName']}"
+      @id = hash_values['LegacyRestaurantId']
       @name = hash_values['RestaurantName']
       @short_description = hash_values['ShortDescription']
       @long_description = hash_values['LongDescription']

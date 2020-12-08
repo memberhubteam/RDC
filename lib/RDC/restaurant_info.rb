@@ -1,13 +1,13 @@
 # frozen_string_literal: true
 
-require 'RDC/request'
+require_relative 'request'
 
 module RDC
   class RestaurantInfo
     class << self
       def retrieve(restaurant_id)
         request = Request.new("/restaurant_info/#{restaurant_id}")
-        reponse = request.get
+        response = request.get
         response.json
       end
     end
