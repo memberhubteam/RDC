@@ -43,7 +43,11 @@ module RDC
       private
 
       def downloads_directory
-        @downloads_directory ||= Pathname.new(RDC.root).join('downloads')
+        @downloads_directory ||= begin
+          directory = Pathname.new(RDC.root).join('downloads')
+          FileUtils.mkdir_p directory
+          directory
+        end
       end
     end
   end
