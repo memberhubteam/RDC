@@ -3,6 +3,7 @@
 require "RDC/version"
 require "RDC/catalog"
 require "RDC/order"
+require "RDC/sku"
 
 module RDC
   class Error < StandardError; end
