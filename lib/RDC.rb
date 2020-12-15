@@ -12,6 +12,7 @@ module RDC
   class << self
     attr_accessor :api_key, :environment
     attr_accessor :ftp_username, :ftp_password, :ftp_url
+    attr_accessor :prti
 
     def root
       File.dirname __dir__
