@@ -5,9 +5,9 @@ require 'RDC/request'
 module RDC
   class Cart
     class << self
-      def create(sku_id)
-        request = Request.new("/validate_sku?sku=#{sku_id}")
-        reponse = request.get
+      def create(params)
+        request = Request.new("/create_shopping_cart_id")
+        reponse = request.get(params)
         response.json
       end
     end

@@ -1,0 +1,15 @@
+{
+  "processOrder": {
+    "partnerCustomerID":    "",
+    "partnerTransactionID": "9094 - 47375",
+    "transactionID":        "74250008",
+    "shoppingCartID":       "1415678895",
+    "certificates": [
+      {
+        "sKU": "600909-$10",
+        "giftCertID": 579007153,
+        "certURI": "https://www-qa.restaurant.com/ViewCertificate?gid=30a5c908-075a-4a76-b7a9-d8ad541f10b7"}
+    ],
+   "warnings": []
+  }
+}

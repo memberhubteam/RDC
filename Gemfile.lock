@@ -4,7 +4,7 @@ PATH
     RDC (0.1.0)
       activesupport (= 5.2.3)
       net-sftp (= 3.0.0)
-      rubyzip (= 2.3.0)
+      rubyzip
 
 GEM
   remote: https://rubygems.org/
