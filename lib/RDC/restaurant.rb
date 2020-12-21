@@ -6,7 +6,7 @@ module RDC
   class Restaurant
     attr_accessor :name, :items, :short_description, :long_description,
                   :online, :address, :image, :id, :communication_media,
-                  :recommended_rank, :rating
+                  :recommended_rank, :rating, :cuisines, :additional_attributes
 
     def initialize(hash_values)
       @id = hash_values['LegacyRestaurantId']
@@ -16,6 +16,8 @@ module RDC
       @online = hash_values['OnlineReservation']
       @recommended_rank = hash_values['RecommendedRank']
       @rating = hash_values['Rating']
+      @cuisines = hash_values['Cuisine']
+      @additional_attributes = hash_values['Attributes']
 
       @address = hash_values['LocationAddress']
       @communication_media = hash_values['CommunicationMedia']

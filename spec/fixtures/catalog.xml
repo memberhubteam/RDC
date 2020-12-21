@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Catalogs>
+  <catalog>
+    <PartyID>69</PartyID>
+    <LegacyRestaurantId>329357</LegacyRestaurantId>
+    <RestaurantName>Plaza Diner</RestaurantName>
+    <ShortDescription>The Plaza Diner and Restaurant has something for everyone. Choose from our large assortment of breakfast items, sandwiches, fish, burgers, salads, or our classic dinners.</ShortDescription>
+    <LongDescription>Plaza Diner and Restaurant, located at 737 Bridgeport Avenue in Woodside Plaza, Shelton, Connecticut, has something for everyone. Choose from our large assortment of breakfast items, sandwiches, fish, burgers, salads, or our classic dinners. You will love our NY strip steak! Our team promises to continue to serve the finest quality food and keep your dining experience pleasant. Please stop by for a fresh pastry or a delicious cheesecake. Everybody at Plaza Diner looks forward to seeing you soon.</LongDescription>
+    <ZipsWithIn15Radius/>
+    <OnlineReservation>false</OnlineReservation>
+    <IsEmerchant>false</IsEmerchant>
+    <IsPartner>false</IsPartner>
+    <RecommendedRank>6.5306126691077893</RecommendedRank>
+    <Rating>4.5219</Rating>
+    <LocationAddress>
+      <Address1>737 Bridgeport Ave</Address1>
+      <Address2/>
+      <City>Shelton</City>
+      <State>CT</State>
+      <Zip>06484</Zip>
+      <Country>US</Country>
+      <zipLatitude/>
+      <zipLongitude/>
+      <addressLatitude>41.27362</addressLatitude>
+      <addressLongitude>-73.125649</addressLongitude>
+      <DMACityName/>
+      <DMAName/>
+    </LocationAddress>
+    <HoursOfOperation>
+      <Monday>
+        <OpenTime>PT6H</OpenTime>
+        <CloseTime>PT0S</CloseTime>
+      </Monday>
+      <Tuesday>
+        <OpenTime>PT6H</OpenTime>
+        <CloseTime>PT0S</CloseTime>
+      </Tuesday>
+      <Wednesday>
+        <OpenTime>PT6H</OpenTime>
+        <CloseTime>PT0S</CloseTime>
+      </Wednesday>
+      <Thursday>
+        <OpenTime>PT6H</OpenTime>
+        <CloseTime>PT0S</CloseTime>
+      </Thursday>
+      <Friday>
+        <OpenTime>PT6H</OpenTime>
+        <CloseTime>PT1H</CloseTime>
+      </Friday>
+      <Saturday>
+        <OpenTime>PT6H</OpenTime>
+        <CloseTime>PT1H</CloseTime>
+      </Saturday>
+      <Sunday>
+        <OpenTime>PT6H</OpenTime>
+        <CloseTime>PT0S</CloseTime>
+      </Sunday>
+    </HoursOfOperation>
+    <CatalogImagesFullPath>
+      <MainLogo>https://mainsite-prod-cdn.azureedge.net/partner-images/69/mainlogo_16145logo.jpg</MainLogo>
+      <MicrositeImage1>https://mainsite-prod-cdn.azureedge.net/partner-images/69/micrositeimage_16145photo1.jpg</MicrositeImage1>
+      <ListingsImage>https://mainsite-prod-cdn.azureedge.net/partner-images/69/listingsimage_listing16145photo1.jpg</ListingsImage>
+    </CatalogImagesFullPath>
+    <CommunicationMedia>
+      <Phone>203-9255910</Phone>
+      <Fax/>
+      <URL>
+        <MicrositeSEOUrl>http://www.restaurant.com/plaza-diner-shelton-pid=69</MicrositeSEOUrl>
+      </URL>
+    </CommunicationMedia>
+    <Dates>
+      <NewRestaurantAdded/>
+    </Dates>
+    <Cuisine>
+      <Primary>Continental</Primary>
+      <Secondary>Fusion/Eclectic</Secondary>
+    </Cuisine>
+    <Attributes>
+      <Attire>No Dress Code</Attire>
+      <Attire>Casual</Attire>
+      <Atmosphere>Family / Children</Atmosphere>
+      <Atmosphere>Outdoor Dining</Atmosphere>
+      <Amenities>TV</Amenities>
+      <Cost>$$</Cost>
+      <MealTimesServed>Breakfast</MealTimesServed>
+      <MealTimesServed>Lunch</MealTimesServed>
+      <MealTimesServed>Dinner</MealTimesServed>
+      <MealTimesServed>Late Night</MealTimesServed>
+      <SpecialNeeds>Smoking Section</SpecialNeeds>
+      <SpecialNeeds>Child Menu</SpecialNeeds>
+      <SpecialNeeds>Organic Menu Items</SpecialNeeds>
+      <SpecialNeeds>Booster/High Chairs</SpecialNeeds>
+      <SpecialNeeds>Non Smoking Area</SpecialNeeds>
+      <SpecialNeeds>Wheelchair Access</SpecialNeeds>
+      <SpecialNeeds>Early Bird Specials</SpecialNeeds>
+      <ParkingAvailability>Parking on Site</ParkingAvailability>
+      <PaymentTypes>Discover</PaymentTypes>
+      <PaymentTypes>Mastercard</PaymentTypes>
+      <PaymentTypes>Amex</PaymentTypes>
+      <PaymentTypes>Visa</PaymentTypes>
+      <RedemptionMode>Paperless</RedemptionMode>
+      <TypeofServiceProvided>Carry Out</TypeofServiceProvided>
+      <TypeofServiceProvided>Sit Down</TypeofServiceProvided>
+      <ReservationInformation>Not Required</ReservationInformation>
+      <Bar>Full Bar</Bar>
+      <Bar>Beer</Bar>
+      <Bar>Wines</Bar>
+    </Attributes>
+    <Items>
+      <Item>
+        <ProductSKU>DC10ATABL</ProductSKU>
+        <LegacyProductSKU>329357-$10</LegacyProductSKU>
+        <ItemValue>10</ItemValue>
+        <ItemPrice>4</ItemPrice>
+        <ItemContractType>STANDARD</ItemContractType>
+        <ItemAvailableInventory>16</ItemAvailableInventory>
+        <ItemRestriction>Minimum purchase of $20 at restaurant. Dine In Only.</ItemRestriction>
+        <ItemRestrictionDetail>
+          <MinPurchase>20</MinPurchase>
+        </ItemRestrictionDetail>
+      </Item>
+      <Item>
+        <ProductSKU>DC25EPJBW</ProductSKU>
+        <LegacyProductSKU>16145-$25</LegacyProductSKU>
+        <ItemValue>25</ItemValue>
+        <ItemPrice>10</ItemPrice>
+        <ItemContractType>STANDARD</ItemContractType>
+        <ItemAvailableInventory>44</ItemAvailableInventory>
+        <ItemRestriction>Minimum purchase of $50 at restaurant. Dine In Only.</ItemRestriction>
+        <ItemRestrictionDetail>
+          <MinPurchase>50</MinPurchase>
+        </ItemRestrictionDetail>
+      </Item>
+    </Items>
+  </catalog>
+</Catalogs>
