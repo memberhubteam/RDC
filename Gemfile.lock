@@ -1,8 +1,8 @@
 PATH
   remote: .
   specs:
-    RDC (0.1.4)
-      activesupport (= 5.2.3)
+    RDC (0.1.5)
+      activesupport
       net-sftp (= 3.0.0)
       rubyzip
 
