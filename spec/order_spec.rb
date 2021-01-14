@@ -1,7 +1,5 @@
 # frozen_string_literal: true
 
-require 'pry'
-
 RSpec.describe RDC::Order do
   describe '#process_order_body' do
     let(:purchase_params) do
