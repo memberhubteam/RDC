@@ -69,7 +69,7 @@
       </URL>
     </CommunicationMedia>
     <Dates>
-      <NewRestaurantAdded/>
+      <NewRestaurantAdded>true</NewRestaurantAdded>
     </Dates>
     <Cuisine>
       <Primary>Continental</Primary>
