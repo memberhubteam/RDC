@@ -12,9 +12,9 @@ module RDC
 
     def base_url
       if RDC.environment == 'production'
-        'http://connect.restaurant.com/api'.freeze
+        'https://connect.restaurant.com/api'
       else
-        'https://dev-connect.restaurant.com/api'.freeze
+        'https://dev-connect.restaurant.com/api'
       end
     end
 
